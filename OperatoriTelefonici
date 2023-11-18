@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title>Operatori Telefonici</title>
+  <style>
+  body {background-color:  #454545;}
+  h1{text-align: center;
+     font-size: 300%;
+     color: white;}
+  .rosso{
+     color: red;}
+  li{color: white;
+     font-size: 150%;
+     padding: 5px;
+    }
+  p {color: white;
+     padding: 5px;
+     font-size: 110%;
+  }
+  label{
+      color: white;}
+  .inizio {
+      font-size: 80%;
+      padding: 1px;}
+ @media only screen and (max-width: 600px) {
+    h1 {
+       font-size: 2em;}
+    .inizio, input, textarea {
+       font-size: 0.8em;}
+    li {
+       font-size: 1.2em;}
+    p {
+       font-size: 1em;}
+  }
+  </style>
+</head>
+  <h1>Operatori Telefonici Italiani</h1>
+  <p class="inizio">Pima di iniziale conpilare qua!</p>
+  <!-- Modulo di registrazione utente con campi per nome, cognome, email e password-->
+  <form>
+       <label for="nome"  class="inizio">nome: </label><br>
+       <input type="text" id="nome" name="nome" required class="inizio"> <br>
+       <label for="cognome"  class="inizio">cognome: </label><br>
+       <input type="text" id="cognome" name="cognome" required  class="inizio"><br>
+       <label for="email"  class="inizio">email: </label><br>
+       <input type="text" id="email" name="email" required  class="inizio"><br>
+       <label for="password"  class="inizio">password: </label><br>
+       <input type="text" id="password" name="password" required autocomplete="off"  class="inizio"><br>
+  </form>
+  <br>
+  <h3 style="color:lightblue; font-size:150%; ">Operatori Telefoni piu' Comuni in Italia: </h3>
+  <!-- Lista operatori telefonici -->
+  <ul>
+    <li>Vodafone</li>
+    <li>Fastweb </li>
+    <li>Tim</li>
+    <li>Ski wifi</li>
+    <li>Wind3</li>
+    <li>Eolo</li>
+    <li>Tiscali</li>
+    <li>Linkem</li>
+    <li>Sorgenia</li>
+    <li>Iliad</li>
+  </ul>  
+  <br>
+  <br>
+  <p>I due operatori più utilizzati dagli italiano sono <span class="rosso">Wind3</span> con il 26 % e <span class="rosso">Tim</span> con il 25 % delle quote totali. </p>
+  <p>Il terzo operatore telefonico più utilizzato i è <span class="rosso">Vodafone</span> con il 22,7 % del mercato.</p>
+  <br>
+  <!-- Link a operatori telefonici -->
+  <ol>
+    <li><a href="https://ad.doubleclick.net/clk;278680663;105874132;m;u=ds&sv1=52240239470&sv2=3399729558806131&sv3=7818444829470142127&sa_info=CI2stD8Qk97AkgEYv5O2DiCSvcXX7QI=&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buOL4EaWiwzQO9YCAHcCi4_ys_AupgrHD4uORfMWc4oUcxS1cqVwqc4aAvNqEALw_wcB&cls=1;%3fhttps://track.adform.net/Serving/TrackPoint/?pm=721250&ADFPageName=WIND_Tracking_Campaign_Click&ADFdivider=%7c&itm=%7bsv81:%27Wind%27,sv92:%2771700000004182208%27,sv90:%27CLICK%27%7d&rdir=https://www.windtre.it/?&&&&ds_rl=1276890&gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buOL4EaWiwzQO9YCAHcCi4_ys_AupgrHD4uORfMWc4oUcxS1cqVwqc4aAvNqEALw_wcB&gclsrc=aw.ds"> <img src="Wind_Tre_logo__2020_.svg.png" alt="Wind3" style="width:256px; height:152px;"></a></li>
+    <li><a href="https://www.tim.it/fisso-e-mobile/fibra-e-adsl/fibra-internet-casa?gclid=Cj0KCQiAr8eqBhD3ARIsAIe-buMuCfumsGS1ewFGOSN39dXnS12YzFf0PF2fBHMgPnuCyfaQQMjGSxkaAgjJEALw_wcB"> <img src="tim-logo.webp" alt="Tim" style="width:256px; height:152px;"></a></li>
+    <li><a href="https://privati.vodafone.it/adv/internet-unlimited-special-edition?inT=1&ecmp=320000_SEM_GoogleAdWords_c-20600884712&utm_source=GoogleAdWords&utm_medium=SEM&utm_campaign=20600884712&utm_term=vodafone&gad_source=1&gclid=Cj0KCQiA3uGqBhDdARIsAFeJ5r3UKf75_Be3B8e57jzx17V9w1dEi4zSl8RRk6wxxPcqO_u2JhOdms4aAvx2EALw_wcB&gclsrc=aw.ds"> <img src="Vodafone-logo-1.png" alt="Vodafone" style="width:256px; height:152px;"></a></li>
+  </ol>
+  <br>
+  <!-- Modulo per raccogliere informazioni sull'operatore telefonico attualmente utilizzato dall'utente -->
+  <p>Operatore Telefonico che utilizzi in questo momento?</p>
+  <form>
+    <textarea name="messaggio" rows="2" cols="40" style="font-size: 110%"></textarea>
+    <br><br>
+    <input type="submit">
+  </form>
+  
+
+
+
+</body>
+</html>
