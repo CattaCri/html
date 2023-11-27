@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title>Sassuolo</title>
+  <style>
+  body{
+   background-image: url('Vettore_Di_Prospettiva.jpg');
+   background-size: cover;
+      background-repeat: no-repeat;
+  }
+  header {
+  background-image: url('sfondo-verde-sfumatura.jpg');
+  padding: 80px;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  nav {
+  float: left;
+  width: 10%;
+  height: 1800px; 
+  background-color: #6fcf97;
+  padding: 30px;
+}
+.img{
+max-width: 60%;
+height: auto;
+float: right;}
+  article{
+  float: rigth;
+  font-size: 20px;
+  }
+  li{
+   margin-left: 50px;
+  }
+  
+  table{
+  margin-left: 300px;
+  border:1px solid black;
+  width:50%;
+  }
+  th, td{
+  border:1px solid black;
+  text-align:center;
+  }
+  
+  tr:nth-child(odd) {
+  background-color: #6fcf97;
+}
+
+  </style>
+</head>
+<body>
+<header>
+ <img src="sassuolo-calcio1217.png" style="float: right; width: 288.6px; height: 216.6px;">
+ <h1>SASSUOLO</h1>
+ <img src="sassuolo-calcio1217.png" style="float: left; width: 288.6px; height: 216.6px;">
+ </header>
+ <nav>
+  <ul>
+   <br>
+   <br>
+   <h2><a href="partite.html" target="_blank">PARTITE</a></h2>
+  </ul>
+ </nav>
+ <article>
+  <h2 style="margin-left: 500px;">Sassuolo calcio</h2>
+  <p style=" margin-left: 300px;margin-right: 300px;">L'Unione Sportiva Sassuolo Calcio, meglio nota come Sassuolo, è una società calcistica italiana con sede nella città di Sassuolo.<br>Milita in Serie A, la massima divisione del campionato italiano.<br>Costituita nel 1920, i suoi colori sociali sono il nero e il verde, da cui il soprannome di neroverdi; altro soprannome noto del club è Sasôl ("Sassuolo" in dialetto modenese).<br>Il Sassuolo si trova al 30º posto della classifica perpetua della Serie A dal 1929, che tiene conto di tutte le squadre che hanno militato almeno una volta nella massima serie; categoria in cui il club è presente dalla stagione 2013-2014. <br>Insieme al Lecco, all'Empoli, al Carpi, al Cesena, al Legnano, alla Pro Patria di Busto Arsizio e al Casale, è anche uno dei club che hanno preso parte alla massima serie calcistica italiana (da quando essa è a girone unico) in un periodo in cui la loro città non era capoluogo di provincia.Dopo aver usufruito per decenni dello stadio Enzo Ricci di Sassuolo e aver giocato per un breve periodo allo stadio Alberto Braglia di Modena, dal 2013 i neroverdi disputano le loro partite casalinghe al Mapei Stadium di Reggio Emilia.  </p>
+  <h2 style="margin-left: 500px;">Squadra</h2>
+  <p style=" margin-left: 300px;"><b>Allenatore</b>: Alessio Dionisi</p>
+  <ul style=" margin-left: 300px;">
+   <li><b>Portieri</b></li>
+    <img src="fotoSquadraSassuolo.jpg" class="img">
+    <ul>
+     <li>47. <a href="consigli.html" target="_blank">Andrea Consigli</a></li>
+     <li>25. Gianluca Pegolo</li>
+     <li>28. Alessandro Cragno</li>
+     <br>
+    </ul>
+    <li><b>Difensori</b></li>
+     
+    <ul>
+    <br>
+     <li>21. Mattia Viti</li>
+     <li>5.  Martin Erlic</li>
+     <li>44. Ruan Tressoldi</li>
+     <li>13. <a href="Ferrari.html" target="_blank">Gian Marco Ferrari</a> (C)</li>
+     <li>17. Matías Viña</li>
+     <li> 3. Marcus Pedersen</li>
+     <li>22. Jeremy Toljan</li>
+     <li> 2. Filippo Missori</li>
+     <br>
+    </ul>
+   
+    <li><b>Centrocampisti</b></li>
+    <ul>
+    <br>
+     <li>35. Luca Lipani</li>
+     <li> 7. Matheus Henrique</li>
+     <li>24. Daniel Boloca</li>
+     <li> 6. Uroš Račić</li>
+     <li>11. Nedim Bajrami</li>
+     <li>42. Kristian Thorstvedt</li>
+     <li>23. Cristian Volpato</li>
+     <br>
+    </ul>
+    <li><b>Attaccanti</b></li>
+    <ul>
+    <br>
+     <li>45. Armand Laurienté</li>
+     <li>15. Emil Konradsen Ceide</li>
+     <li>10. <a href="berardi.html" target="_blank">Domenico Berardi</a></li>
+     <li>20. Samu Castillejo</li>
+     <li> 9. Andrea Pinamonti</li>
+     <li>19. Agustín Álvarez</li>
+    </ul>
+  </ul>
+  
+  
+  <h2 style=" margin-left: 300px;">Migliori attacanti nella stotia del Sassuolo</h2>  
+  <table>
+   <tr>
+    <th>Nome</th>
+    <th>Presenze</th>
+    <th>Gol Fatti</th>
+   </tr>
+   
+   <tr>
+    <td>Domenico Berardi</td>
+    <td>363</td>
+    <td>138</td>
+   </tr>
+   
+   <tr>
+    <td>Gaetano Masucci</td>
+    <td>242</td>
+    <td>44</td>
+   </tr>
+   
+   <tr>
+    <td>Alessandro Noselli</td>
+    <td>104</td>
+    <td>38</td>
+   </tr>
+   
+   <tr>
+    <td>Grégoire Defrel</td>
+    <td>196</td>
+    <td>33</td>
+   </tr>
+   
+   <tr>
+    <td>Francesco Caputo</td>
+    <td>64</td>
+    <td>32</td>
+   </tr>
+  </table>
+  
+
+</article>  
+  
+
+</body>
+</html>
