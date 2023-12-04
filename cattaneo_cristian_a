@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <!-- 2 -->
+  <title>Cattaneo Cristian</title>
+  <style>
+  <!-- 1 -->
+  @media only screen and (max-width: 600px){
+  }
+  <!-- 5 -->
+  body{
+      background-color: black;}
+  h1{
+     text-align: center;
+     font-size: 80px;
+     color: black;
+    }
+  p{
+     margin-left: 50px;
+     margin-right: 50px;
+     font-size: 20px;
+     }
+  div{
+     margin-left: 50px;
+     margin-right: 50px;
+     font-size: 20px;
+    }
+  .img{
+     max-width: 30%;
+     height: auto;
+     float: center;
+     margin-left: 450px;}
+  .span{
+     margin-left: 50px;
+     margin-right: 50px;
+     font-size: 20px;
+    }
+  table, th, td {
+  border:1px solid black;
+  text-align:center;}
+  </style>
+</head>
+<body>
+ <!-- 3 -->
+ <h1>JUVENTUS</h1>
+ <p>La <b>Juventus</b> è un club Italiano nato a Torino.<br>è il più titolato e con maggior tradizione sportiva oltreché uno dei più blasonati al mondo con 70 trofei ufficiali vinti durante la militanza al vertice della piramide sportiva nazionale, tra cui il primato di 36 titoli di campione d'Italia e 11 in competizioni UEFA.<br></p>
+ <br>
+ <!-- 4 -->
+ <img src="http://cattaneocristian.altervista.org/logoJuve" class="img" alt="Juventus"> <!--Immagine con link assoluto-->
+ <br>
+ <br>
+ <div>Il legame con la <b>famiglia Agnelli</b>, che dura in modo quasi ininterrotto dal 1923, è il primo e più duraturo sodalizio imprenditoriale-sportivo in Italia, attraverso un peculiare modello gestionale instaurato nel frattempo, quella bianconera divenne una delle prime società sportive italiane a raggiungere uno status professionistico ante litteram, affermandosi a livello nazionale dal decennio successivo e in ambito internazionale dalla metà degli anni 70 del XX secolo.</div>
+ <br>
+ <a href="https://www.juventus.com/it" Style="margin-left: 50px; margin-right: 50px; font-size: 20px;">Sito Ufficiale Juventus</a>
+ <br>
+ <span class="span">Un detto che è rimasto nella storia della Juve è l'obbiettivo non è vincere ma è l'unica cosa che conta.</span>
+ <br><br>
+ <h2 Style="margin-left: 80px; ">MILGIORI MARCATORI DELLA JUVE</h2>
+ <!--Tabella Numerata-->
+ <ol class="span">
+  <li>Del Piero</li>
+  <li>Giampiero Boniperti</li>
+  <li>Roberto Bettega Ritiro</li>
+  <li>David Trezeguet Ritiro</li>
+ </ol>
+ <!--8-->
+<table style="width:50%;">
+ <tr>
+  <th></th>
+  <th></th>
+  <th><ul><il></il><li>df</li></ul></th>
+ </tr>
+ <tr>
+  <td></td>
+  <td><ol><li>ciao<li><li>salve</li></ol></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ </table>
+ <br>
+ <!-- 6 -->
+ <blockquote cite="La Juventus è qualcosa di più di una squadra...non so dire cosa, ma sono orgoglioso di farne parte !!!">
+ 
+ <!-- 9 -->
+ <br>
+ <!-- Blocchi di testo-->
+ <div class="span">Nell'autunno del 1897 vide la luce a Torino lo Sport-Club <b>Juventus</b> per iniziativa di un gruppo di studenti del liceo classico Massimo d'Azeglio; tra essi Luigi Forlano e i fratelli Eugenio ed Enrico Canfari. Tre anni più tardi, con il nome di Foot-Ball Club Juventus, la società si iscrisse al suo primo campionato italiano.</div>
+ <p class="span">Il primo titolo nazionale arrivò già nel 1905, tuttavia appena l'anno dopo il presidente della società, lo svizzero <span style="color: lightblue;">Alfred Dick</span>, a seguito di accese discussioni di spogliatoio lasciò la Juventus e, assieme a un gruppo di soci dissidenti, si unì alla Torinese per dare vita al Torino: l'episodio, oltre a segnare l'origine del derby della Mole, fu l'inizio di una serie di problemi finanziari e sportivi che culminarono nel 1913, quando la squadra bianconera evitò la retrocessione in Promozione grazie a un ripescaggio.</p>
+
+<!-- 13 -->
+ <p>&#129492;  &rarr; &#128187; &#128200; &rarr; &#128676; </p>
+ <p class="frasi">Un uomo decide di investire in azioni di aziende moltinazionali diventando ricco e riuscendo a realizzare il suo sogno di comprare uno yacht.</p>
+
+
+<!-- 14 -->
+<form>
+  <fieldset>
+   <legend>UTENTE</legend>
+   <!-- Nome-->
+   <label for="nome">Nome:</label>
+   <input type="text" id="nome" name="nome" required>
+    <!-- Cognome-->
+   <label for="cognome">Cognome:</label>
+   <input type="cognome" id="cognome" name="cognome" required>
+   </fieldset>
+</form>
+ 
+
+
+</body>
+</html>
