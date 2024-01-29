@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--1-->
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title>Cattaneo Cristian</title>
+  <link rel="stylesheet" href="http://cattaneocristian.altervista.org/verifica/styleRecupero.css">
+  <style>
+  	 table, th{
+    	color: white;
+        border:3px solid white;
+  		text-align:center;
+    }
+  </style>
+</head>
+<body>
+<!--5-->
+  <h1>Block Chain</h1>
+  <div class="box1">
+  	<h2>Come Funziona</h2>
+    <p>La block chain permette la <span>Decentralizzazione</span> del potere</p>
+  </div>
+  <img  class="immagine" style="width: 233px; height: 133px;" src="bitcoin.jpg" alt="bitcoin"  usemap="#bitcoin">
+    <map name="bitcoin">
+    <area shape="poly" coords="347,22,183,199,341,359,513,187" href="https://bitcoin.org/it/">
+    </map>
+
+  
+  <div class="box2">
+  	<h3>Il futuro è qui?</h3>
+    <p>Se il passato ci ha insegnato qualcosa, è che una volta che le blockchain diventeranno necessarie della vita quotidiana, smetteremo di parlarne. Questo è quello che è accaduto con le basi tecniche essenziali delle killer app.</p>
+  </div>
+  <br><br>
+  <!--2-->
+  <h2 style="color: white;">Altre Criptovalute</h2>
+  <a href="https://it.cointelegraph.com/learn/what-is-ethereum-a-beginners-guide-to-eth-cryptocurrency" target="_blank"> <img class="immagine" src="ethereum.jpg" style="widht: ;heigth: ;" alt="ethereum" ></a>
+  <a href="https://it.cointelegraph.com/learn/what-is-ethereum-a-beginners-guide-to-eth-cryptocurrency" target="_blank"><p style="margin-left:20px; color: white; font-size: 20px;">Ethereum</p></a>
+  <!--3-->
+  <table style="width:50%; color: white;">
+ <tr>
+  <th></th>
+  <th></th>
+  <th><ul><il></il><li>bitcoin</li></ul></th>
+ </tr>
+ <tr>
+  <td></td>
+  <td><ol><li>blockChain<li><li>Ethereum</li></ol></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ </table>
+ 
+ <!--4-->
+ <br><br><br>
+ <span>sdasadasddasdas</span>
+<button type="button" onclick="CambioStile()">Clicca qui!</button>
+<script>
+  function CambioStile() {
+  document.getElementById("stile").style.fontSize = "20px"; 
+  document.getElementById("stile").style.color = "white";
+  document.getElementById("stile").style.backgroundColor = "darkblue";        
+}
+</script>
+
+
+</body>
+</html>
